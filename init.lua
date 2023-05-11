@@ -1,3 +1,10 @@
+require("plugins.plugins-setup")
+require("plugins.lualine")
+require("plugins.lsp")
+require("plugins.cmp")
+require("plugins.cmp")
+require("plugins.comment")
+require("plugins.autopairs")
+
 require("core.options")
 require("core.keymaps")
-require("plugins.plugins-setup")

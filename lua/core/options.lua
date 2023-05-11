@@ -20,3 +20,6 @@ opt.clipboard:append("unnamedplus")
 -- 外观
 opt.termguicolors = true
 opt.signcolumn = "yes"
+
+-- 主题
+vim.cmd [[colorscheme tokyonight]]
