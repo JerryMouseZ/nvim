@@ -5,4 +5,7 @@ local keymap = vim.keymap
 -- 插入模式 -- 
 keymap.set("i", "jk", "<ESC>")
 -- 正常模式 -- 
-keymap.set("n", "<leader>nh", ":nohlsearch") 
+keymap.set("n", "<leader>nh", ":nohlsearch")
+
+-- nvim-tree
+keymap.set("n", "<leader>n", ":NvimTreeToggle<CR>")
