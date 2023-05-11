@@ -22,5 +22,7 @@ call plug#begin('~/.local/share/nvim/site/plugged')
   Plug 'windwp/nvim-autopairs' "自动补全括号
   Plug 'akinsho/bufferline.nvim' "buffer分割线
   Plug 'lewis6991/gitsigns.nvim' "左则git提示
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'nvim-telescope/telescope.nvim'
 call plug#end()
 ]]
